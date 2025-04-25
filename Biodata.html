@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Biodata Saya</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-image: url('Fotobiodata.jpeg');
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
+      color: #f2e9e9;
+      padding: 20px;
+      margin: 0;
+    }
+    .biodata-box {
+      max-width: 800px;
+      margin: 50px auto;
+      background-color: rgba(1, 3, 3, 0.9);
+      padding: 30px;
+      border-radius: 12px;
+      box-shadow: 0 8px 20px rgba(238, 233, 233, 0.3);
+      display: flex;
+      gap: 30px;
+      align-items: flex-start;
+    }
+    .profile-photo img {
+      width: 200px;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 10px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+    }
+    .biodata-content {
+      flex: 1;
+    }
+    h2 {
+      text-align: center;
+      color: #ebe0e0;
+      margin-top: 0;
+    }
+    .biodata p {
+      margin: 10px 0;
+      font-size: 16px;
+    }
+    .label {
+      font-weight: bold;
+      color: #f3ecec;
+    }
+    .back-link {
+      text-align: center;
+      display: block;
+      margin-top: 30px;
+      text-decoration: none;
+      color: #ebdfdf;
+    }
+    .back-link:hover {
+      text-decoration: underline;
+    }
+    @media screen and (max-width: 700px) {
+      .biodata-box {
+        flex-direction: column;
+        align-items: center;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="biodata-box">
+    <div class="profile-photo">
+      <img src="FotoIlham.jpg" alt="Foto Ilham Dino Widjaksono">
+    </div>
+    <div class="biodata-content">
+      <h2>Biodata Saya</h2>
+      <div class="biodata">
+        <p><span class="label">Nama:</span> Ilham Dino Widjaksono</p>
+        <p><span class="label">NPM:</span> E1G021078</p>
+        <p><span class="label">Program Studi:</span> Teknologi Industri Pertanian</p>
+        <p><span class="label">Tempat, Tanggal Lahir:</span> Talang Petai, 20 Agustus 2003</p>
+        <p><span class="label">Alamat:</span> Gang 3 unib belakang</p>
+        <p><span class="label">Email:</span> ilhamdinowidjaksono@gamil.com</p>
+        <p><span class="label">No. HP:</span> 082390639513</p>
+        <p><span class="label">Hobi:</span> Fhising</p>
+        <a href="Opening.html" class="back-link">← Kembali ke Halaman depan</a>
+      </div>
+    </div>
+  </div> 
+  <a href="Jadwal_Matkul.html" class="back-link">→ Lanjut ke Halaman Kegiatan</a>
+</body>
+</html>
